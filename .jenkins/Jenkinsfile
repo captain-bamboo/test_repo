@@ -5,7 +5,6 @@ pipeline {
             steps {
                 echo 'Example Build'
                 echo 'I\'m `hostname`'
-                sh 'ifconfig'
             }
         }
         stage('Example Text') {
